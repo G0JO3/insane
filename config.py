@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 24369670
+API_HASH = "1d9a1f3aefe6e65bcfa51a35ba103735"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "7405389565:AAF1JRbomIH2kNuMZ4GEle4gfqSmTr1d0HY"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://kalbushanyadav:pD0STFPMD4fjtcuB@cluster0.u0c3km0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1002602026959
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 7523210228
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/hsksog"
+SUPPORT_GROUP = "https://t.me/hellosheip"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQFz2gYAlH6YqvHeSl5SeX_2m-ztCbWSmyAeomeNunqHp5jy-5NyULRm_C5E9lBcMAPjIo5C51EBHak_P87K6Q5_-ktH12P-BMN2rYL5UIfTcFc4GqAMlLPWOmgHw6VbmXwnBhuB12nCJuJQhTOiQutoAqq9sD55YckxVfhcgmdYv9wvl-eKtIi4NgxD8EOdh7PI7Fol0Nf92X_SLK0khHd_yEEwH_Y619Rd9fplHJr1HDvxuU8gdGq5nDNI6eACvZ_EQo3VToX3DyzMGNzlMY2k_aeDawR1P1Pl_fpFlDbsVI-sLXOJVJCIVeqoDD6_HvZi8VowC2Egs4rFPkcd7S0V8hfJsgAAAAGrjOgAAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
